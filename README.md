@@ -1,18 +1,14 @@
 
 Exp 6 Simulation of Optical Communication System
 ## Introduction to OptiPerformer 
-## Objective
-Download and install OptiPerformer software on your computer and run a sample file.
+## Aim
+To analyze and evaluate the performance of an optical communication system by studying the relationship between fiber length, received power, Q factor and Bit Error Rate(BER) and to observe changes in the eye diagram with increasing fiber length using optiperformer.
 
 ---
 
-## Overview
+## Theory
 
 Optiwave introduces **OptiPerformer**, a free photonic design automation tool that harnesses the full power of OptiSystem and creates specific dynamic design scenarios for student use.
-
-In this exercise, you will:
-- Download and install OptiPerformer on your PC/laptop.
-- Use your license to load and run OptiSystem simulations prepared for this course.
 
 The first simulation file (`Introduction_OptiPerformer.osp`) models a basic fiber optic system consisting of:
 - A transmitter
@@ -25,7 +21,7 @@ The system includes:
 
 ---
 
-## Instructions
+## Procedure
 
 1. Download and install OptiPerformer from [optiwave.com](https://optiwave.com).  
 2. Copy the `Introduction_OptiPerformer.osp` file to your PC.  
@@ -57,7 +53,7 @@ The system includes:
 
 ---
 
-## Report
+## Observation
 
 1. Cover sheet (as per attached example).  
 2. Tabulation of received power, Q factor, and BER for 5 fiber lengths.  
@@ -68,24 +64,14 @@ The system includes:
 
 ## Tabulation
 
-**Transmission Analysis Across Fiber Lengths**
+![WhatsApp Image 2026-03-20 at 2 13 22 PM](https://github.com/user-attachments/assets/0f5a384e-e7bf-4e77-8c31-31dbe4f9efca)
 
-| S.No | Fiber Length (km) | Optical Power (Watts) | Optical Power (dBm) | Max Q Factor | Min BER | Eye Height | Decision Instant (Max Q / Min BER) |
-|------|-------------------|------------------------|----------------------|--------------|---------|-------------|-------------------------------------|
-|      |                   |                        |                      |              |         |             |                                     |
-|      |                   |                        |                      |              |         |             |                                     |
-|      |                   |                        |                      |              |         |             |                                     |
-|      |                   |                        |                      |              |         |             |                                     |
-|      |                   |                        |                      |              |         |             |                                     |
 
 ---
 
-## Graphs
-
-*(Insert plots of Optical Power, Q Factor, and BER vs. Fiber Length here)*
 
 ---
 
 ## RESULT
 
-*(Summarize key findings from simulation and analysis)*
+As fiber length increases, received power and Q-factor decrease, while BER increases. The eye diagram becomes more closed, showing signal quality is reduced
